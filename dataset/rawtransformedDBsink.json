@@ -1,0 +1,17 @@
+{
+	"name": "rawtransformedDBsink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "rawtransformedDBsinklinkserv",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "EDW",
+			"table": "financedata"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

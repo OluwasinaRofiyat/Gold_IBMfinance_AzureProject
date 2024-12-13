@@ -1,0 +1,21 @@
+{
+	"name": "APIrawsink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADLSdatasink",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "rawdata.json",
+				"folderPath": "rawdata",
+				"fileSystem": "financedata-sourcefile"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,9 @@
+{
+	"name": "goldfinanceDF",
+	"location": "southafricanorth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "38ccab58-7479-493d-addd-91eabfe82ae8",
+		"tenantId": "52b054aa-ed71-4016-a61f-38d5200b63b2"
+	}
+}
