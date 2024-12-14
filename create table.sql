@@ -5,6 +5,13 @@ CREATE TABLE PRD.TrendAnalysis (
     volume_trend NVARCHAR(50) NULL
 );
 
+CREATE TABLE PRD.ProcedureExecutionLogs (
+    log_id INT IDENTITY(1,1) PRIMARY KEY,
+    procedure_name NVARCHAR(255),
+    execution_time DATETIME,
+    status NVARCHAR(50),
+    error_message NVARCHAR(MAX) NULL
+);
 
 
 CREATE TABLE PRD.VolumeAnalysis (
